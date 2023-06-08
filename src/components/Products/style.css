@@ -1,0 +1,27 @@
+.list-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-products__item {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+}
+.list-products__item:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .list-products__item {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .list-products__item {
+    flex-basis: 100%;
+  }
+}

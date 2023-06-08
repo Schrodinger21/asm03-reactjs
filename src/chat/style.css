@@ -1,0 +1,33 @@
+.chat-icon {
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+}
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.react-chatbot-kit-chat-container {
+  width: 100%;
+}
+.react-chatbot-kit-chat-bot-message {
+  margin: 10px;
+}

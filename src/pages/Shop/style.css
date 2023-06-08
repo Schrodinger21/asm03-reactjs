@@ -1,0 +1,19 @@
+.shop-container {
+  display: flex;
+  gap: 30px;
+}
+.shop-nav {
+  min-width: 200px;
+}
+.shop-product {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .shop-container {
+    flex-direction: column;
+  }
+  .shop-nav {
+    min-width: 100%;
+  }
+}
